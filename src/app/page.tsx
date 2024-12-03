@@ -1,9 +1,10 @@
-export default function Home () {
+import '../app/styles/home.css';
+export default function Home() {
   return (
     <div>
-      <h1 className="font-bold underline text-4xl">Home Page!</h1>
+      <h1 className="home-title">Home Page!</h1>
       <br />
-      <h2 className="text-2xl font-bold underline pl-5">Hey this is my home page!</h2>
+      <h2 className="home-subtitle">Hey this is my home page!</h2>
     </div>
-  )
+  );
 }
